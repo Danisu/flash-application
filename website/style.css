@@ -1,0 +1,149 @@
+/*
+	Provide css style for all webpages
+
+*/
+
+body
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333333;
+	background-color: #F9F9F9;
+}
+
+td
+{
+	border: 1px solid;
+	padding: 7px;
+}
+
+/*
+	text formatting
+*/
+
+.text_title
+{
+	font: bold 20px Verdana, Arial, Helvetica, sans-serif;
+	width: 310px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text_announce
+{
+	font: bold 15px Verdana, Arial, Helvetica, sans-serif;
+	width: 310px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.text_footer
+{
+	margin-top: 1em;
+	font: 9px Verdana, Arial, Helvetica, sans-serif;
+	background-color: #666666;
+	height: 20px;
+}
+
+.text_notify
+{
+	font: bold 15px Verdana, Arial, Helvetica, sans-serif;
+	color: red;
+	height: 20px;
+	width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button_form
+{
+	width: 310px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+	Input field beauty
+
+	credits to: http://www.jankoatwarpspeed.com/post/2008/07/27/Enhance-your-input-fields-with-simple-CSS-tricks.aspx
+*/
+
+#input_area
+{
+	background-color: #d6e5f4;
+	padding: 10px;
+	width: 280px;
+
+	/* center */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#input_area input
+{
+	margin-bottom: 5px;
+	display: block;
+	padding: 4px;
+	width: 270px;
+}
+
+#input_area div
+{
+	margin-bottom: 5px;
+	display: block;
+	padding: 4px;
+	width: 270px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+	text button stuff
+
+	credits to http://www.oscaralexander.com/tutorials/how-to-make-sexy-buttons-with-css.html
+*/
+.clear
+{
+	overflow: hidden;
+	width: 100%;
+	margin-bottom: 26px;
+}
+
+a.button
+{
+	background: transparent url('images/bg_button_a.gif') no-repeat scroll top right;
+	color: #444;
+	display: block;
+	float: left;
+	font: normal 12px arial, sans-serif;
+	height: 24px;
+	margin-right: 6px;
+	padding-right: 18px;
+	text-decoration: none;
+}
+
+a.button span
+{
+	background: transparent url('images/bg_button_span.gif') no-repeat;
+	display: block;
+	line-height: 14px;
+	padding: 5px 0 5px 18px;
+}
+
+/* to have button press down, but seems to not work correctly
+a.button:active
+{
+	background-position: bottom right;
+	color: #000;
+	outline: none;
+}
+
+a.button:active span
+{
+	background-position: bottom left;
+	padding: 6px 0 4px 18px;
+}
+*/

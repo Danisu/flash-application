@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FlashFunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FlashFunAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		2899E5600DE3E45000AC0155 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E55F0DE3E45000AC0155 /* MenuViewController.xib */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* MenuViewController.m */; };
+		640197FD1095827400459E16 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 640197FC1095827400459E16 /* Deck.m */; };
+		6401980F10958B8800459E16 /* DeckEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6401980D10958B8800459E16 /* DeckEditingViewController.m */; };
+		6401981010958B8800459E16 /* DeckEditingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6401980E10958B8800459E16 /* DeckEditingViewController.xib */; };
+		64019819109590E400459E16 /* CardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64019817109590E400459E16 /* CardsViewController.m */; };
+		6401981A109590E400459E16 /* CardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64019818109590E400459E16 /* CardsViewController.xib */; };
+		6401983810959A0400459E16 /* CardEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6401983610959A0400459E16 /* CardEditingViewController.m */; };
+		6401983910959A0400459E16 /* CardEditingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6401983710959A0400459E16 /* CardEditingViewController.xib */; };
+		6406C2D810B4B5EF00D29C96 /* ShareController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6406C2D610B4B5EF00D29C96 /* ShareController.m */; };
+		6406C2D910B4B5EF00D29C96 /* ShareController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6406C2D710B4B5EF00D29C96 /* ShareController.xib */; };
+		6406C2DD10B4B74F00D29C96 /* ShareSendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6406C2DB10B4B74F00D29C96 /* ShareSendController.m */; };
+		6406C2DE10B4B74F00D29C96 /* ShareSendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6406C2DC10B4B74F00D29C96 /* ShareSendController.xib */; };
+		64878EF210A1659A00C49D3F /* DeleteCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64878EF010A1659A00C49D3F /* DeleteCardViewController.m */; };
+		64878EF310A1659A00C49D3F /* DeleteCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64878EF110A1659A00C49D3F /* DeleteCardViewController.xib */; };
+		64912FFF1096AA9800818B2C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64912FFE1096AA9800818B2C /* CoreData.framework */; };
+		64942F9210C5F151005DE4C1 /* ShareDownloadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64942F9010C5F151005DE4C1 /* ShareDownloadController.m */; };
+		64942F9310C5F151005DE4C1 /* ShareDownloadController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64942F9110C5F151005DE4C1 /* ShareDownloadController.xib */; };
+		64942FBA10C60906005DE4C1 /* ShareInstallDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64942FB810C60906005DE4C1 /* ShareInstallDeckController.m */; };
+		64942FBB10C60906005DE4C1 /* ShareInstallDeckController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64942FB910C60906005DE4C1 /* ShareInstallDeckController.xib */; };
+		6494312510C65618005DE4C1 /* ShareStatsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6494312310C65618005DE4C1 /* ShareStatsController.m */; };
+		6494312610C65618005DE4C1 /* ShareStatsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6494312410C65618005DE4C1 /* ShareStatsController.xib */; };
+		6498C2D210C50BF100AE873C /* rustle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6498C2D110C50BF100AE873C /* rustle.mp3 */; };
+		649AE03E10C387D7009E3B5A /* cards.png in Resources */ = {isa = PBXBuildFile; fileRef = 649AE03D10C387D7009E3B5A /* cards.png */; };
+		649AE04810C38AA8009E3B5A /* configure.png in Resources */ = {isa = PBXBuildFile; fileRef = 649AE04710C38AA8009E3B5A /* configure.png */; };
+		649AE04B10C38BCE009E3B5A /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 649AE04A10C38BCE009E3B5A /* edit.png */; };
+		649AE04E10C38C58009E3B5A /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 649AE04D10C38C58009E3B5A /* share.png */; };
+		649AE05010C38D18009E3B5A /* tutorial.png in Resources */ = {isa = PBXBuildFile; fileRef = 649AE04F10C38D18009E3B5A /* tutorial.png */; };
+		649AE0B410C39D99009E3B5A /* ShareSendReceiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649AE0B210C39D99009E3B5A /* ShareSendReceiveController.m */; };
+		649AE0B510C39D99009E3B5A /* ShareSendReceiveController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649AE0B310C39D99009E3B5A /* ShareSendReceiveController.xib */; };
+		649EFAD710B5F363006F95CE /* ShareSelectDeckController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649EFAD510B5F363006F95CE /* ShareSelectDeckController.m */; };
+		649EFAD810B5F363006F95CE /* ShareSelectDeckController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649EFAD610B5F363006F95CE /* ShareSelectDeckController.xib */; };
+		64B344971095719D00143547 /* FlashFun.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 64B344961095719D00143547 /* FlashFun.xcdatamodel */; };
+		64B3449F1095728300143547 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 64B3449C1095728300143547 /* Card.m */; };
+		64CA099B10A223D20035B0A4 /* MoveSelectDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CA099910A223D20035B0A4 /* MoveSelectDeckViewController.m */; };
+		64CA099C10A223D20035B0A4 /* MoveSelectDeckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CA099A10A223D20035B0A4 /* MoveSelectDeckViewController.xib */; };
+		64CA0AB710A245BF0035B0A4 /* MoveConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64CA0AB510A245BF0035B0A4 /* MoveConfirmViewController.m */; };
+		64CA0AB810A245BF0035B0A4 /* MoveConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64CA0AB610A245BF0035B0A4 /* MoveConfirmViewController.xib */; };
+		64F0315A10943E3F00AFF15F /* EditController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F0315810943E3F00AFF15F /* EditController.m */; };
+		64F0315B10943E3F00AFF15F /* EditController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64F0315910943E3F00AFF15F /* EditController.xib */; };
+		64F0316410943E5300AFF15F /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F0316210943E5300AFF15F /* GameController.m */; };
+		64F0316510943E5300AFF15F /* GameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64F0316310943E5300AFF15F /* GameController.xib */; };
+		64F031D51094435400AFF15F /* ShareWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F031D31094435400AFF15F /* ShareWebController.m */; };
+		64F031D61094435400AFF15F /* ShareWebController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64F031D41094435400AFF15F /* ShareWebController.xib */; };
+		674582F410A101A2004A6292 /* NormalGameModeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 674582F210A101A2004A6292 /* NormalGameModeController.m */; };
+		674582F510A101A2004A6292 /* NormalGameModeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 674582F310A101A2004A6292 /* NormalGameModeController.xib */; };
+		712B9EC410ACC621002274FB /* ConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 712B9EC210ACC621002274FB /* ConfigController.m */; };
+		712B9EC510ACC621002274FB /* ConfigController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712B9EC310ACC621002274FB /* ConfigController.xib */; };
+		715DAC0D10C874DB00BAF2D1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 715DAC0C10C874DB00BAF2D1 /* AudioToolbox.framework */; };
+		71A281C410A0C6460049533F /* DeleteDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A281C210A0C6460049533F /* DeleteDeckViewController.m */; };
+		71A281C510A0C6460049533F /* DeleteDeckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A281C310A0C6460049533F /* DeleteDeckViewController.xib */; };
+		71F2E88810B32AEE00F83812 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F2E88610B32AEE00F83812 /* HelpViewController.m */; };
+		71F2E88910B32AEE00F83812 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71F2E88710B32AEE00F83812 /* HelpViewController.xib */; };
+		E9298A2710A290F90033594A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9298A2510A290F90033594A /* RootViewController.m */; };
+		E9298A2810A290F90033594A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9298A2610A290F90033594A /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FlashFunAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashFunAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FlashFunAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlashFunAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* FlashFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlashFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E55F0DE3E45000AC0155 /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		28A0AAE50D9B0CCF005BE974 /* FlashFun_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlashFun_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		640197FB1095827400459E16 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		640197FC1095827400459E16 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		6401980C10958B8800459E16 /* DeckEditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeckEditingViewController.h; path = ../DeckEditingViewController.h; sourceTree = "<group>"; };
+		6401980D10958B8800459E16 /* DeckEditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeckEditingViewController.m; path = ../DeckEditingViewController.m; sourceTree = "<group>"; };
+		6401980E10958B8800459E16 /* DeckEditingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeckEditingViewController.xib; sourceTree = "<group>"; };
+		64019816109590E400459E16 /* CardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardsViewController.h; path = ../CardsViewController.h; sourceTree = "<group>"; };
+		64019817109590E400459E16 /* CardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardsViewController.m; path = ../CardsViewController.m; sourceTree = "<group>"; };
+		64019818109590E400459E16 /* CardsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardsViewController.xib; sourceTree = "<group>"; };
+		6401983510959A0400459E16 /* CardEditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CardEditingViewController.h; path = ../CardEditingViewController.h; sourceTree = "<group>"; };
+		6401983610959A0400459E16 /* CardEditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CardEditingViewController.m; path = ../CardEditingViewController.m; sourceTree = "<group>"; };
+		6401983710959A0400459E16 /* CardEditingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardEditingViewController.xib; sourceTree = "<group>"; };
+		6406C2D510B4B5EF00D29C96 /* ShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareController.h; path = ../ShareController.h; sourceTree = "<group>"; };
+		6406C2D610B4B5EF00D29C96 /* ShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareController.m; path = ../ShareController.m; sourceTree = "<group>"; };
+		6406C2D710B4B5EF00D29C96 /* ShareController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareController.xib; sourceTree = "<group>"; };
+		6406C2DA10B4B74F00D29C96 /* ShareSendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareSendController.h; path = ../ShareSendController.h; sourceTree = "<group>"; };
+		6406C2DB10B4B74F00D29C96 /* ShareSendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareSendController.m; path = ../ShareSendController.m; sourceTree = "<group>"; };
+		6406C2DC10B4B74F00D29C96 /* ShareSendController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareSendController.xib; sourceTree = "<group>"; };
+		64878EEF10A1659A00C49D3F /* DeleteCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeleteCardViewController.h; path = ../DeleteCardViewController.h; sourceTree = "<group>"; };
+		64878EF010A1659A00C49D3F /* DeleteCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeleteCardViewController.m; path = ../DeleteCardViewController.m; sourceTree = "<group>"; };
+		64878EF110A1659A00C49D3F /* DeleteCardViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteCardViewController.xib; sourceTree = "<group>"; };
+		64912FFE1096AA9800818B2C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		64942F8F10C5F151005DE4C1 /* ShareDownloadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareDownloadController.h; path = ../ShareDownloadController.h; sourceTree = "<group>"; };
+		64942F9010C5F151005DE4C1 /* ShareDownloadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareDownloadController.m; path = ../ShareDownloadController.m; sourceTree = "<group>"; };
+		64942F9110C5F151005DE4C1 /* ShareDownloadController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareDownloadController.xib; sourceTree = "<group>"; };
+		64942FB710C60906005DE4C1 /* ShareInstallDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareInstallDeckController.h; path = ../ShareInstallDeckController.h; sourceTree = "<group>"; };
+		64942FB810C60906005DE4C1 /* ShareInstallDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareInstallDeckController.m; path = ../ShareInstallDeckController.m; sourceTree = "<group>"; };
+		64942FB910C60906005DE4C1 /* ShareInstallDeckController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareInstallDeckController.xib; sourceTree = "<group>"; };
+		6494312210C65618005DE4C1 /* ShareStatsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareStatsController.h; path = ../ShareStatsController.h; sourceTree = "<group>"; };
+		6494312310C65618005DE4C1 /* ShareStatsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareStatsController.m; path = ../ShareStatsController.m; sourceTree = "<group>"; };
+		6494312410C65618005DE4C1 /* ShareStatsController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareStatsController.xib; sourceTree = "<group>"; };
+		6498C2D110C50BF100AE873C /* rustle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rustle.mp3; sourceTree = "<group>"; };
+		649AE03D10C387D7009E3B5A /* cards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards.png; sourceTree = "<group>"; };
+		649AE04710C38AA8009E3B5A /* configure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configure.png; sourceTree = "<group>"; };
+		649AE04A10C38BCE009E3B5A /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		649AE04D10C38C58009E3B5A /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
+		649AE04F10C38D18009E3B5A /* tutorial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tutorial.png; sourceTree = "<group>"; };
+		649AE0B110C39D99009E3B5A /* ShareSendReceiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareSendReceiveController.h; path = ../ShareSendReceiveController.h; sourceTree = "<group>"; };
+		649AE0B210C39D99009E3B5A /* ShareSendReceiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareSendReceiveController.m; path = ../ShareSendReceiveController.m; sourceTree = "<group>"; };
+		649AE0B310C39D99009E3B5A /* ShareSendReceiveController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareSendReceiveController.xib; sourceTree = "<group>"; };
+		649EFAD410B5F363006F95CE /* ShareSelectDeckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareSelectDeckController.h; path = ../ShareSelectDeckController.h; sourceTree = "<group>"; };
+		649EFAD510B5F363006F95CE /* ShareSelectDeckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareSelectDeckController.m; path = ../ShareSelectDeckController.m; sourceTree = "<group>"; };
+		649EFAD610B5F363006F95CE /* ShareSelectDeckController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareSelectDeckController.xib; sourceTree = "<group>"; };
+		64B344961095719D00143547 /* FlashFun.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = FlashFun.xcdatamodel; sourceTree = "<group>"; };
+		64B3449B1095728300143547 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		64B3449C1095728300143547 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		64CA099810A223D20035B0A4 /* MoveSelectDeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveSelectDeckViewController.h; path = ../MoveSelectDeckViewController.h; sourceTree = "<group>"; };
+		64CA099910A223D20035B0A4 /* MoveSelectDeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoveSelectDeckViewController.m; path = ../MoveSelectDeckViewController.m; sourceTree = "<group>"; };
+		64CA099A10A223D20035B0A4 /* MoveSelectDeckViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoveSelectDeckViewController.xib; sourceTree = "<group>"; };
+		64CA0AB410A245BF0035B0A4 /* MoveConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoveConfirmViewController.h; path = ../MoveConfirmViewController.h; sourceTree = "<group>"; };
+		64CA0AB510A245BF0035B0A4 /* MoveConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoveConfirmViewController.m; path = ../MoveConfirmViewController.m; sourceTree = "<group>"; };
+		64CA0AB610A245BF0035B0A4 /* MoveConfirmViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoveConfirmViewController.xib; sourceTree = "<group>"; };
+		64F0315710943E3F00AFF15F /* EditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditController.h; path = ../EditController.h; sourceTree = "<group>"; };
+		64F0315810943E3F00AFF15F /* EditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditController.m; path = ../EditController.m; sourceTree = "<group>"; };
+		64F0315910943E3F00AFF15F /* EditController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditController.xib; sourceTree = "<group>"; };
+		64F0316110943E5300AFF15F /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameController.h; path = ../GameController.h; sourceTree = "<group>"; };
+		64F0316210943E5300AFF15F /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameController.m; path = ../GameController.m; sourceTree = "<group>"; };
+		64F0316310943E5300AFF15F /* GameController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameController.xib; sourceTree = "<group>"; };
+		64F031D21094435400AFF15F /* ShareWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShareWebController.h; path = ../ShareWebController.h; sourceTree = "<group>"; };
+		64F031D31094435400AFF15F /* ShareWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShareWebController.m; path = ../ShareWebController.m; sourceTree = "<group>"; };
+		64F031D41094435400AFF15F /* ShareWebController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShareWebController.xib; sourceTree = "<group>"; };
+		674582F110A101A2004A6292 /* NormalGameModeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalGameModeController.h; sourceTree = "<group>"; };
+		674582F210A101A2004A6292 /* NormalGameModeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalGameModeController.m; sourceTree = "<group>"; };
+		674582F310A101A2004A6292 /* NormalGameModeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = NormalGameModeController.xib; path = Classes/NormalGameModeController.xib; sourceTree = "<group>"; };
+		712B9EC110ACC621002274FB /* ConfigController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigController.h; sourceTree = "<group>"; };
+		712B9EC210ACC621002274FB /* ConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigController.m; sourceTree = "<group>"; };
+		712B9EC310ACC621002274FB /* ConfigController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ConfigController.xib; path = Classes/ConfigController.xib; sourceTree = "<group>"; };
+		715DAC0C10C874DB00BAF2D1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		71A281C110A0C6460049533F /* DeleteDeckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeleteDeckViewController.h; path = ../DeleteDeckViewController.h; sourceTree = "<group>"; };
+		71A281C210A0C6460049533F /* DeleteDeckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeleteDeckViewController.m; path = ../DeleteDeckViewController.m; sourceTree = "<group>"; };
+		71A281C310A0C6460049533F /* DeleteDeckViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DeleteDeckViewController.xib; sourceTree = "<group>"; };
+		71F2E88510B32AEE00F83812 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpViewController.h; path = ../HelpViewController.h; sourceTree = "<group>"; };
+		71F2E88610B32AEE00F83812 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpViewController.m; path = ../HelpViewController.m; sourceTree = "<group>"; };
+		71F2E88710B32AEE00F83812 /* HelpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9298A2410A290F90033594A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E9298A2510A290F90033594A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E9298A2610A290F90033594A /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = RootViewController.xib; path = Classes/RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				64912FFF1096AA9800818B2C /* CoreData.framework in Frameworks */,
+				715DAC0D10C874DB00BAF2D1 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				64F0315710943E3F00AFF15F /* EditController.h */,
+				64F0315810943E3F00AFF15F /* EditController.m */,
+				6401980C10958B8800459E16 /* DeckEditingViewController.h */,
+				6401980D10958B8800459E16 /* DeckEditingViewController.m */,
+				71A281C110A0C6460049533F /* DeleteDeckViewController.h */,
+				71A281C210A0C6460049533F /* DeleteDeckViewController.m */,
+				64019816109590E400459E16 /* CardsViewController.h */,
+				64019817109590E400459E16 /* CardsViewController.m */,
+				6401983510959A0400459E16 /* CardEditingViewController.h */,
+				6401983610959A0400459E16 /* CardEditingViewController.m */,
+				64878EEF10A1659A00C49D3F /* DeleteCardViewController.h */,
+				64878EF010A1659A00C49D3F /* DeleteCardViewController.m */,
+				64CA099810A223D20035B0A4 /* MoveSelectDeckViewController.h */,
+				64CA099910A223D20035B0A4 /* MoveSelectDeckViewController.m */,
+				64CA0AB410A245BF0035B0A4 /* MoveConfirmViewController.h */,
+				64CA0AB510A245BF0035B0A4 /* MoveConfirmViewController.m */,
+				64F0316110943E5300AFF15F /* GameController.h */,
+				64F0316210943E5300AFF15F /* GameController.m */,
+				674582F110A101A2004A6292 /* NormalGameModeController.h */,
+				674582F210A101A2004A6292 /* NormalGameModeController.m */,
+				6406C2D510B4B5EF00D29C96 /* ShareController.h */,
+				6406C2D610B4B5EF00D29C96 /* ShareController.m */,
+				64F031D21094435400AFF15F /* ShareWebController.h */,
+				64F031D31094435400AFF15F /* ShareWebController.m */,
+				64942F8F10C5F151005DE4C1 /* ShareDownloadController.h */,
+				64942F9010C5F151005DE4C1 /* ShareDownloadController.m */,
+				64942FB710C60906005DE4C1 /* ShareInstallDeckController.h */,
+				64942FB810C60906005DE4C1 /* ShareInstallDeckController.m */,
+				649EFAD410B5F363006F95CE /* ShareSelectDeckController.h */,
+				649EFAD510B5F363006F95CE /* ShareSelectDeckController.m */,
+				6406C2DA10B4B74F00D29C96 /* ShareSendController.h */,
+				6406C2DB10B4B74F00D29C96 /* ShareSendController.m */,
+				649AE0B110C39D99009E3B5A /* ShareSendReceiveController.h */,
+				649AE0B210C39D99009E3B5A /* ShareSendReceiveController.m */,
+				6494312210C65618005DE4C1 /* ShareStatsController.h */,
+				6494312310C65618005DE4C1 /* ShareStatsController.m */,
+				712B9EC110ACC621002274FB /* ConfigController.h */,
+				712B9EC210ACC621002274FB /* ConfigController.m */,
+				28C286DF0D94DF7D0034E888 /* MenuViewController.h */,
+				28C286E00D94DF7D0034E888 /* MenuViewController.m */,
+				1D3623240D0F684500981E51 /* FlashFunAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FlashFunAppDelegate.m */,
+				E9298A2410A290F90033594A /* RootViewController.h */,
+				E9298A2510A290F90033594A /* RootViewController.m */,
+				71F2E88510B32AEE00F83812 /* HelpViewController.h */,
+				71F2E88610B32AEE00F83812 /* HelpViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* FlashFun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				64B344901095706700143547 /* Model Classes */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* FlashFun_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6498C2D110C50BF100AE873C /* rustle.mp3 */,
+				649AE04F10C38D18009E3B5A /* tutorial.png */,
+				649AE04D10C38C58009E3B5A /* share.png */,
+				649AE04A10C38BCE009E3B5A /* edit.png */,
+				649AE04710C38AA8009E3B5A /* configure.png */,
+				649AE03D10C387D7009E3B5A /* cards.png */,
+				712B9EC310ACC621002274FB /* ConfigController.xib */,
+				2899E55F0DE3E45000AC0155 /* MenuViewController.xib */,
+				E9298A2610A290F90033594A /* RootViewController.xib */,
+				64F0315910943E3F00AFF15F /* EditController.xib */,
+				6401980E10958B8800459E16 /* DeckEditingViewController.xib */,
+				71A281C310A0C6460049533F /* DeleteDeckViewController.xib */,
+				64019818109590E400459E16 /* CardsViewController.xib */,
+				6401983710959A0400459E16 /* CardEditingViewController.xib */,
+				64878EF110A1659A00C49D3F /* DeleteCardViewController.xib */,
+				64CA099A10A223D20035B0A4 /* MoveSelectDeckViewController.xib */,
+				64CA0AB610A245BF0035B0A4 /* MoveConfirmViewController.xib */,
+				64F0316310943E5300AFF15F /* GameController.xib */,
+				674582F310A101A2004A6292 /* NormalGameModeController.xib */,
+				64F031D41094435400AFF15F /* ShareWebController.xib */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				64B344961095719D00143547 /* FlashFun.xcdatamodel */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				71F2E88710B32AEE00F83812 /* HelpViewController.xib */,
+				6406C2D710B4B5EF00D29C96 /* ShareController.xib */,
+				6406C2DC10B4B74F00D29C96 /* ShareSendController.xib */,
+				649EFAD610B5F363006F95CE /* ShareSelectDeckController.xib */,
+				649AE0B310C39D99009E3B5A /* ShareSendReceiveController.xib */,
+				64942F9110C5F151005DE4C1 /* ShareDownloadController.xib */,
+				64942FB910C60906005DE4C1 /* ShareInstallDeckController.xib */,
+				6494312410C65618005DE4C1 /* ShareStatsController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				715DAC0C10C874DB00BAF2D1 /* AudioToolbox.framework */,
+				64912FFE1096AA9800818B2C /* CoreData.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64B344901095706700143547 /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				64B3449B1095728300143547 /* Card.h */,
+				64B3449C1095728300143547 /* Card.m */,
+				640197FB1095827400459E16 /* Deck.h */,
+				640197FC1095827400459E16 /* Deck.m */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* FlashFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FlashFun" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlashFun;
+			productName = FlashFun;
+			productReference = 1D6058910D05DD3D006BFB54 /* FlashFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlashFun" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* FlashFun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				2899E5600DE3E45000AC0155 /* MenuViewController.xib in Resources */,
+				64F0315B10943E3F00AFF15F /* EditController.xib in Resources */,
+				64F0316510943E5300AFF15F /* GameController.xib in Resources */,
+				64F031D61094435400AFF15F /* ShareWebController.xib in Resources */,
+				6401981010958B8800459E16 /* DeckEditingViewController.xib in Resources */,
+				6401981A109590E400459E16 /* CardsViewController.xib in Resources */,
+				6401983910959A0400459E16 /* CardEditingViewController.xib in Resources */,
+				674582F510A101A2004A6292 /* NormalGameModeController.xib in Resources */,
+				71A281C510A0C6460049533F /* DeleteDeckViewController.xib in Resources */,
+				64878EF310A1659A00C49D3F /* DeleteCardViewController.xib in Resources */,
+				64CA099C10A223D20035B0A4 /* MoveSelectDeckViewController.xib in Resources */,
+				64CA0AB810A245BF0035B0A4 /* MoveConfirmViewController.xib in Resources */,
+				E9298A2810A290F90033594A /* RootViewController.xib in Resources */,
+				712B9EC510ACC621002274FB /* ConfigController.xib in Resources */,
+				71F2E88910B32AEE00F83812 /* HelpViewController.xib in Resources */,
+				6406C2D910B4B5EF00D29C96 /* ShareController.xib in Resources */,
+				6406C2DE10B4B74F00D29C96 /* ShareSendController.xib in Resources */,
+				649EFAD810B5F363006F95CE /* ShareSelectDeckController.xib in Resources */,
+				649AE03E10C387D7009E3B5A /* cards.png in Resources */,
+				649AE04810C38AA8009E3B5A /* configure.png in Resources */,
+				649AE04B10C38BCE009E3B5A /* edit.png in Resources */,
+				649AE04E10C38C58009E3B5A /* share.png in Resources */,
+				649AE05010C38D18009E3B5A /* tutorial.png in Resources */,
+				649AE0B510C39D99009E3B5A /* ShareSendReceiveController.xib in Resources */,
+				6498C2D210C50BF100AE873C /* rustle.mp3 in Resources */,
+				64942F9310C5F151005DE4C1 /* ShareDownloadController.xib in Resources */,
+				64942FBB10C60906005DE4C1 /* ShareInstallDeckController.xib in Resources */,
+				6494312610C65618005DE4C1 /* ShareStatsController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FlashFunAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* MenuViewController.m in Sources */,
+				64F0315A10943E3F00AFF15F /* EditController.m in Sources */,
+				64F0316410943E5300AFF15F /* GameController.m in Sources */,
+				64F031D51094435400AFF15F /* ShareWebController.m in Sources */,
+				64B344971095719D00143547 /* FlashFun.xcdatamodel in Sources */,
+				64B3449F1095728300143547 /* Card.m in Sources */,
+				640197FD1095827400459E16 /* Deck.m in Sources */,
+				6401980F10958B8800459E16 /* DeckEditingViewController.m in Sources */,
+				64019819109590E400459E16 /* CardsViewController.m in Sources */,
+				6401983810959A0400459E16 /* CardEditingViewController.m in Sources */,
+				674582F410A101A2004A6292 /* NormalGameModeController.m in Sources */,
+				71A281C410A0C6460049533F /* DeleteDeckViewController.m in Sources */,
+				64878EF210A1659A00C49D3F /* DeleteCardViewController.m in Sources */,
+				64CA099B10A223D20035B0A4 /* MoveSelectDeckViewController.m in Sources */,
+				64CA0AB710A245BF0035B0A4 /* MoveConfirmViewController.m in Sources */,
+				E9298A2710A290F90033594A /* RootViewController.m in Sources */,
+				712B9EC410ACC621002274FB /* ConfigController.m in Sources */,
+				71F2E88810B32AEE00F83812 /* HelpViewController.m in Sources */,
+				6406C2D810B4B5EF00D29C96 /* ShareController.m in Sources */,
+				6406C2DD10B4B74F00D29C96 /* ShareSendController.m in Sources */,
+				649EFAD710B5F363006F95CE /* ShareSelectDeckController.m in Sources */,
+				649AE0B410C39D99009E3B5A /* ShareSendReceiveController.m in Sources */,
+				64942F9210C5F151005DE4C1 /* ShareDownloadController.m in Sources */,
+				64942FBA10C60906005DE4C1 /* ShareInstallDeckController.m in Sources */,
+				6494312510C65618005DE4C1 /* ShareStatsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FlashFun_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = FlashFun;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FlashFun_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = FlashFun;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "FlashFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlashFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
