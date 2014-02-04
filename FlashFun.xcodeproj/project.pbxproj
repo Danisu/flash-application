@@ -66,6 +66,7 @@
 		71A281C510A0C6460049533F /* DeleteDeckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71A281C310A0C6460049533F /* DeleteDeckViewController.xib */; };
 		71F2E88810B32AEE00F83812 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F2E88610B32AEE00F83812 /* HelpViewController.m */; };
 		71F2E88910B32AEE00F83812 /* HelpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71F2E88710B32AEE00F83812 /* HelpViewController.xib */; };
+		7C89444218A0B1730032E7DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C89444118A0B1730032E7DA /* Default-568h@2x.png */; };
 		E9298A2710A290F90033594A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9298A2510A290F90033594A /* RootViewController.m */; };
 		E9298A2810A290F90033594A /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9298A2610A290F90033594A /* RootViewController.xib */; };
 /* End PBXBuildFile section */
@@ -156,6 +157,7 @@
 		71F2E88510B32AEE00F83812 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpViewController.h; path = ../HelpViewController.h; sourceTree = "<group>"; };
 		71F2E88610B32AEE00F83812 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpViewController.m; path = ../HelpViewController.m; sourceTree = "<group>"; };
 		71F2E88710B32AEE00F83812 /* HelpViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpViewController.xib; sourceTree = "<group>"; };
+		7C89444118A0B1730032E7DA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9298A2410A290F90033594A /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E9298A2510A290F90033594A /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				7C89444118A0B1730032E7DA /* Default-568h@2x.png */,
 				64B344901095706700143547 /* Model Classes */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -347,8 +350,11 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "FlashFun" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
@@ -394,6 +400,7 @@
 				649AE04810C38AA8009E3B5A /* configure.png in Resources */,
 				649AE04B10C38BCE009E3B5A /* edit.png in Resources */,
 				649AE04E10C38C58009E3B5A /* share.png in Resources */,
+				7C89444218A0B1730032E7DA /* Default-568h@2x.png in Resources */,
 				649AE05010C38D18009E3B5A /* tutorial.png in Resources */,
 				649AE0B510C39D99009E3B5A /* ShareSendReceiveController.xib in Resources */,
 				6498C2D210C50BF100AE873C /* rustle.mp3 in Resources */,
